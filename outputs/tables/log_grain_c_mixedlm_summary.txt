@@ -1,0 +1,27 @@
+                           Mixed Linear Model Regression Results
+===========================================================================================
+Model:                        MixedLM            Dependent Variable:            log_grain_c
+No. Observations:             4969               Method:                        ML         
+No. Groups:                   10                 Scale:                         0.1659     
+Min. group size:              12                 Log-Likelihood:                -2613.4385 
+Max. group size:              2564               Converged:                     Yes        
+Mean group size:              496.9                                                        
+-------------------------------------------------------------------------------------------
+                                                Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------------------
+Intercept                                        7.016    0.177  39.540 0.000  6.668  7.364
+C(Crop)[T.Hordeum vulgare (Barley)]              0.142    0.538   0.264 0.792 -0.912  1.196
+C(Crop)[T.Pisum sativum (Pea)]                  -0.039    0.203  -0.190 0.849 -0.437  0.360
+C(Crop)[T.Triticum aestivum (Winter Wheat)]      0.043    0.203   0.212 0.832 -0.355  0.441
+C(Crop)[T.Zea mays (Corn)]                       0.569    0.017  32.659 0.000  0.535  0.604
+C(Q('Tillage Descriptor'))[T.Conventional Till]  0.056    0.026   2.157 0.031  0.005  0.107
+C(Q('Tillage Descriptor'))[T.No Till]            0.039    0.026   1.508 0.132 -0.012  0.089
+C(Q('Tillage Descriptor'))[T.Strip Till]         0.459    0.527   0.870 0.384 -0.574  1.492
+C(Q('Tillage Descriptor'))[T.Sub Till]          -0.070    0.035  -1.991 0.046 -0.140 -0.001
+C(Q('Residue Removal'))[T.Partial]               0.023    0.028   0.822 0.411 -0.032  0.078
+C(Q('Residue Removal'))[T.Yes]                   0.024    0.032   0.755 0.450 -0.038  0.087
+z_Total_N_Amount_kgN_per_ha                      0.122    0.010  12.785 0.000  0.103  0.141
+z_GS_P                                           0.134    0.007  19.483 0.000  0.121  0.148
+z_GS_T                                          -0.230    0.008 -28.960 0.000 -0.246 -0.214
+Group Var                                        0.243    0.276                            
+===========================================================================================

@@ -1,0 +1,16 @@
+variable,role,meaning,unit
+Grain C kgC/ha,primary response,"grain carbon content, used as the main crop yield outcome",kg C / ha
+Above G Biomass kg/ha,secondary response,above-ground crop biomass,kg / ha
+SiteID,grouping variable,experimental site; used as a random intercept group,site label
+Crop,categorical predictor,"crop species, mostly corn and soybean in this data subset",category
+Tillage Descriptor,categorical predictor,tillage management class,category
+Residue Removal,categorical predictor,whether crop residue was removed,category
+Total N Amount kgN/ha,continuous predictor,annual total nitrogen fertilizer application amount,kg N / ha
+GS_P,continuous predictor,total precipitation during the growing season,mm
+GS_T,continuous predictor,average temperature during the growing season,degrees C
+MAP mm,descriptive/site climate variable,mean annual precipitation,mm
+MAT degC,descriptive/site climate variable,mean annual temperature,degrees C
+Organic C gC/kg,secondary soil predictor,soil organic carbon content,g C / kg
+pH,secondary soil predictor,soil pH,pH scale
+Sand %,secondary soil predictor,soil sand proportion,percent
+Clay %,secondary soil predictor,soil clay proportion,percent

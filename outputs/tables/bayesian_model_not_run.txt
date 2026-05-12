@@ -1,0 +1,1 @@
+PyMC/ArviZ are not installed in this environment, so the Bayesian MCMC model was not run. Install them with conda or pip, then call fit_optional_bayesian_model(df) from this script.
