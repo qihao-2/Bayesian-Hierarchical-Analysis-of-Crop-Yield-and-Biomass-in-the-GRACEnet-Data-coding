@@ -11,16 +11,27 @@ The analysis accounts for site-to-site variability and uses Gibbs sampling for p
 
 ## Project Structure
 Bayesian-Hierarchical-Analysis-of-Crop-Yield-and-Biomass-in-the-GRACEnet-Data-coding/
+
 ├── data/
+
 │   └── gracenet_data.csv                 # (Not included - available upon request)
+
 ├── outputs/
+
 │   ├── tables/                           # Posterior summaries, descriptive stats
+
 │   └── figures/                          # Exploratory plots, trace plots, site map
+
 ├── project_analysis.py                   # Data cleaning, EDA, and summary tables
+
 ├── mcmc_hierarchical_model.py            # Gibbs sampler for Bayesian hierarchical model
+
 ├── README.md
+
 └── report/
+
 └── Final_Report.pdf                  # Final project report (LaTeX)
+
 
 ## Main Files
 
