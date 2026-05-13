@@ -1,9 +1,7 @@
 """
-STAT 431 Final Project analysis starter file.
-
 Project: Bayesian hierarchical analysis of GRACEnet crop outcomes.
 
-This script is organized around the professor's proposal review:
+This script performs the following steps:
 1. Define and document variables used in the analysis.
 2. Report data processing decisions, geographic/temporal extent, and site sizes.
 3. Produce descriptive summaries and exploratory figures.

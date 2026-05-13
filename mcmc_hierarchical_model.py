@@ -1,5 +1,5 @@
 """
-Gibbs sampler for the STAT 431 GRACEnet Bayesian hierarchical models.
+Gibbs sampler for GRACEnet Bayesian hierarchical models.
 
 The model is a Gaussian hierarchical regression:
 
